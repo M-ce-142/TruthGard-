@@ -1,0 +1,8 @@
+{
+  "name": "Remix TruthGuard AI",
+  "description": "A simple AI platform that instantly verifies news, images, and messages to protect users from misinformation and scams.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

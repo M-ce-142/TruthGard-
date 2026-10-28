@@ -1,0 +1,226 @@
+<resources>
+    <string name="app_name">TruthGuard AI</string>
+    <string name="app_tagline">તથ્ય ચકાસણી અને સ્કેમ સુરક્ષા</string>
+    <string name="app_subtitle">એક સરળ એઆઈ પ્લેટફોર્મ જે ખોટી માહિતી અને છેતરપિંડીથી બચાવવા માટે સમાચાર, ફોટા અને સંદેશાઓની તુરંત ચકાસણી કરે છે.</string>
+
+    <!-- Navigation Titles -->
+    <string name="nav_dashboard">ડેશબોર્ડ</string>
+    <string name="nav_verify_text">તથ્ય ચકાસો</string>
+    <string name="nav_scan_image">ઇમેજ સ્કેન</string>
+    <string name="nav_check_link">લિંક ચકાસો</string>
+    <string name="nav_check_message">સંદેશ ચકાસો</string>
+    <string name="nav_guardbot">ગાર્ડબોટ</string>
+    <string name="nav_live_alerts">લાઇવ એલર્ટ્સ</string>
+    <string name="nav_history">ઇતિહાસ</string>
+    <string name="nav_settings">સેટિંગ્સ</string>
+    <string name="nav_coming_soon">ટૂંક સમયમાં</string>
+    <string name="nav_splash">પ્રારંભ</string>
+
+    <!-- Common Actions & Buttons -->
+    <string name="action_back">પાછા જાઓ</string>
+    <string name="action_verify">હમણાં ચકાસો</string>
+    <string name="action_analyzing">ચકાસણી ચાલુ છે…</string>
+    <string name="action_clear">સાફ કરો</string>
+    <string name="action_paste">પેસ્ટ કરો</string>
+    <string name="action_copy">કોપી કરો</string>
+    <string name="action_copied">ક્લિપબોર્ડ પર કોપી થઈ ગયું!</string>
+    <string name="action_share">શેર કરો</string>
+    <string name="action_download_pdf">પીડીએફ ડાઉનલોડ</string>
+    <string name="action_retry">ફરી પ્રયાસ કરો</string>
+    <string name="action_send">મોકલો</string>
+    <string name="action_cancel">રદ કરો</string>
+    <string name="action_delete">કાઢી નાખો</string>
+    <string name="action_view_all">બધા જુઓ</string>
+    <string name="action_go_back">પાછળ જાઓ</string>
+    <string name="action_call_1930">1930</string>
+    <string name="action_call_1930_now">હમણાં 1930 પર કૉલ કરો</string>
+    <string name="action_cybercrime_portal">cybercrime.gov.in</string>
+
+    <!-- Verdict Badges -->
+    <string name="verdict_real">ચકાસાયેલ સાચું</string>
+    <string name="verdict_fake">ખોટો / અસત્ય દાવો</string>
+    <string name="verdict_scam">સંભવિત સ્કેમ / છેતરપિંડી</string>
+    <string name="verdict_misleading">ગેરમાર્ગે દોરનારું</string>
+    <string name="verdict_unverified">પૂરતા પુરાવા નથી</string>
+
+    <!-- Confidence & Grounding -->
+    <string name="confidence_grounding">ચકાસણી પુરાવો</string>
+    <string name="confidence_high_official">ઉચ્ચ સત્તાવાર પુરાવો</string>
+    <string name="confidence_high_scam">સ્કેમની ઊંચી શક્યતા</string>
+    <string name="confidence_moderate_context">મધ્યમ પુરાવો (સંદર્ભ અધૂરો)</string>
+    <string name="confidence_strong">મજબૂત ખાતરી</string>
+    <string name="confidence_moderate">મધ્યમ ખાતરી</string>
+    <string name="confidence_preliminary">પ્રારંભિક ચકાસણી</string>
+
+    <!-- Dashboard Screen -->
+    <string name="dashboard_verify_anything_badge">કોઈપણ બાબતની તુરંત ચકાસણી કરો</string>
+    <string name="dashboard_verify_anything_title">વાયરલ સમાચાર, મેસેજ કે લિંકની ખાતરી કરો</string>
+    <string name="dashboard_verify_anything_desc">સત્તાવાર સરકારી ચેતવણીઓ સાથે સરખાવવા માટે કોઈપણ દાવો અહીં પેસ્ટ કરો.</string>
+    <string name="dashboard_input_placeholder">દાવો પેસ્ટ કરો દા.ત. મફત રિચાર્જ યોજના…</string>
+    <string name="dashboard_metrics_title">ચકાસણી આંકડા (સ્થાનિક ડેટાબેઝ)</string>
+    <string name="dashboard_metric_total">કુલ તપાસ</string>
+    <string name="dashboard_metric_fake">સ્કેમ / ખોટા</string>
+    <string name="dashboard_metric_real">ચકાસાયેલ સાચા</string>
+    <string name="dashboard_tools_title">મુખ્ય ચકાસણી સાધનો</string>
+    <string name="dashboard_tool_news_title">સમાચાર ચકાસો</string>
+    <string name="dashboard_tool_news_desc">દાવા અને અફવાઓ પરખો</string>
+    <string name="dashboard_tool_scan_title">ઇમેજ સ્કેન કરો</string>
+    <string name="dashboard_tool_scan_desc">પોસ્ટર અને નોટિસ ઓસીઆર</string>
+    <string name="dashboard_tool_link_title">લિંક ચકાસો</string>
+    <string name="dashboard_tool_link_desc">ફિશિંગ અને યુઆરએલ જોખમ</string>
+    <string name="dashboard_tool_message_title">મેસેજ ચકાસો</string>
+    <string name="dashboard_tool_message_desc">વ્હોટ્સએપ અને એસએમએસ ફ્રોડ</string>
+    <string name="dashboard_tool_guardbot_title">ગાર્ડબોટ એઆઈ</string>
+    <string name="dashboard_tool_guardbot_desc">સાયબર સુરક્ષા ચેટ સલાહકાર</string>
+    <string name="dashboard_tool_live_title">લાઇવ એલર્ટ્સ ફીડ</string>
+    <string name="dashboard_tool_live_desc">સત્તાવાર સરકારી નોટિસ</string>
+    <string name="dashboard_advisory_title">ડિજિટલ અરેસ્ટ સ્કેમથી સાવધાન રહો</string>
+    <string name="dashboard_advisory_desc">પોલીસ કે સીબીઆઈ ક્યારેય વીડિયો કૉલ પર ધરપકડ કરતી નથી. સુરક્ષિત રહેવા માટે અહીં ટેપ કરો.</string>
+    <string name="dashboard_recent_title">તાજેતરની ચકાસણીઓ</string>
+    <string name="dashboard_no_history_title">હજી સુધી કોઈ ચકાસણી નથી</string>
+    <string name="dashboard_no_history_desc">શરૂઆત કરવા માટે ઉપર આપેલા વિકલ્પોમાંથી કોઈ દાવો પેસ્ટ કરો, ઇમેજ સ્કેન કરો કે લિંક તપાસો.</string>
+
+    <!-- Verify News Screen -->
+    <string name="verify_news_title">દાવા અને સમાચાર ચકાસો</string>
+    <string name="verify_news_input_label">વક્તવ્ય કે સમાચારનો દાવો દાખલ કરો</string>
+    <string name="verify_news_input_placeholder">કોઈપણ વાયરલ અફવા કે સમાચારનું શીર્ષક અહીં પેસ્ટ કરો…</string>
+    <string name="verify_news_sample_claims_title">ઝડપી પરીક્ષણ ઉદાહરણો</string>
+    <string name="sample_claim_1">ટ્રાઈ નોટિસ: જો ૨ કલાકમાં કેવાયસી નહીં થાય તો તમારો મોબાઈલ નંબર બંધ થઈ જશે.</string>
+    <string name="sample_claim_2">યુવા યોજના હેઠળ સરકાર તમામ વિદ્યાર્થીઓને ૩ મહિનાનું મફત રિચાર્જ આપી રહી છે.</string>
+    <string name="sample_claim_3">આરબીઆઈએ જાહેરાત કરી છે કે આ મહિનાના અંતથી ₹૫૦૦ ની નોટો અમાન્ય થઈ જશે.</string>
+    <string name="verify_result_badge">ચકાસણી અહેવાલ</string>
+    <string name="verify_result_easy_summary">સરળ ભાષામાં સારાંશ</string>
+    <string name="verify_result_detailed_analysis">વિગતવાર એઆઈ વિશ્લેષણ અને પુરાવા</string>
+    <string name="verify_result_recommendation">સુરક્ષા ભલામણ અને પગલાં</string>
+    <string name="verify_result_trusted_sources">સત્તાવાર સ્ત્રોત અને સંદર્ભો</string>
+    <string name="verify_result_scam_type">સ્કેમનું વર્ગીકરણ</string>
+    <string name="verify_result_source_advisory">સ્ત્રોતો અધિકૃત સરકારી માહિતી અને માન્ય સલાહો પર આધારિત છે.</string>
+
+    <!-- OCR Image Screen -->
+    <string name="ocr_screen_title">ઇમેજ અને નોટિસ સ્કેન કરો</string>
+    <string name="ocr_pick_image_btn">ફોટો / પોસ્ટર પસંદ કરો</string>
+    <string name="ocr_camera_btn">ફોટો પાડો</string>
+    <string name="ocr_gallery_btn">ગેલેરીમાંથી પસંદ કરો</string>
+    <string name="ocr_extracting">ઓસીઆર દ્વારા લખાણ શોધાઈ રહ્યું છે…</string>
+    <string name="ocr_rescan_btn">ફરીથી સ્કેન કરો</string>
+    <string name="ocr_no_text_found">આ ફોટામાં કોઈ વાંચી શકાય તેવું લખાણ મળ્યું નથી. તમે ઉપર જાતે દાવો લખી શકો છો અથવા બીજો ફોટો પસંદ કરી શકો છો.</string>
+    <string name="ocr_remove_image">કાઢી નાખો</string>
+    <string name="ocr_replace_image">ફોટો બદલો</string>
+    <string name="ocr_verify_btn">ઇમેજ અને નોટિસ ચકાસો</string>
+    <string name="ocr_pick_image_hint">ફોટો પીકર અથવા કેમેરાની મદદથી પોસ્ટર, સ્ક્રીનશોટ કે અખબાર કટિંગ પસંદ કરો.</string>
+    <string name="ocr_extracted_text_label">કાઢેલ અથવા સંકળાયેલ લખાણ</string>
+    <string name="ocr_extracted_text_placeholder">કાઢેલ લખાણ અહીં દેખાશે. તમે વિગતો સુધારી પણ શકો છો…</string>
+    <string name="ocr_sample_posters_title">નમૂના સ્કેન નોટિસ</string>
+    <string name="sample_poster_1">નોટિસ: સિમ કાર્ડ બંધ થવાથી બચવા તમામ યુઝર્સને તાત્કાલિક કેવાયસી કરાવવા ટ્રાઈનો આદેશ.</string>
+    <string name="sample_poster_2">વાયરલ પોસ્ટર: ઊર્જા મંત્રાલય દ્વારા મફત ઇલેક્ટ્રિક સ્કૂટર વિતરણ યોજના.</string>
+    <string name="ocr_default_extracted">સત્તાવાર નોટિસ મથાળું: ડિજિટલ વિભાગીય સીલ સાથે તાત્કાલિક પાલન સૂચના.</string>
+
+    <!-- Link Verify Screen -->
+    <string name="link_screen_title">લિંક અને ફિશિંગ તપાસ</string>
+    <string name="link_input_label">વેબ સરનામું (URL)</string>
+    <string name="link_input_placeholder">યુઆરએલ દાખલ કરો અથવા પેસ્ટ કરો દા.ત. https://example.com</string>
+    <string name="link_sample_links_title">ઉદાહરણ ટેસ્ટ યુઆરએલ</string>
+    <string name="link_sample_phishing">નકલી સબસિડી ફિશિંગ લિંક</string>
+    <string name="link_sample_official">સત્તાવાર સરકારી પ્રેસ રિલીઝ</string>
+    <string name="link_sample_job">જોબ સ્કેમ ડિપોઝિટ લિંક</string>
+    <string name="link_security_overview">સુરક્ષા તપાસ સારાંશ</string>
+    <string name="link_safe_indicator">ડોમેન સુરક્ષિત - ઓછું જોખમ</string>
+    <string name="link_suspicious_indicator">ઉચ્ચ જોખમ ધરાવતા ફિશિંગ સંકેતો મળ્યા</string>
+    <string name="link_host_label">હોસ્ટનેમ</string>
+    <string name="link_protocol_label">સુરક્ષા પ્રોટોકોલ</string>
+    <string name="link_status_safe">સુરક્ષિત પ્રોટોકોલ (HTTPS)</string>
+    <string name="link_status_insecure">અસુરક્ષિત (HTTP)</string>
+    <string name="link_warnings_title">ઓળખાયેલ સુરક્ષા જોખમો</string>
+    <string name="link_advice_title">સુરક્ષા સલાહ</string>
+    <string name="link_ssrf_blocked">એસએસઆરએફ સુરક્ષા: લોકલહોસ્ટ અથવા આંતરિક નેટવર્કની ઍક્સેસ બ્લોક છે.</string>
+
+    <!-- Message Verify Screen -->
+    <string name="message_screen_title">સંદેશ સ્કેમ ચકાસણી</string>
+    <string name="message_platform_label">મેસેજ પ્લેટફોર્મ</string>
+    <string name="message_input_label">મેસેજનું લખાણ</string>
+    <string name="message_input_placeholder">શંકાસ્પદ વ્હોટ્સએપ, ટેલિગ્રામ કે એસએમએસ અહીં પેસ્ટ કરો…</string>
+    <string name="message_sample_title">નમૂના છેતરપિંડી સંદેશ પસંદ કરો</string>
+    <string name="sample_msg_whatsapp">અભિનંદન! તમે કેબીસી વ્હોટ્સએપ લૉટરીમાં ₹૨૫,૦૦૦ જીત્યા છો. યુપીઆઈ પર ₹૧,૦૦૦ ફી ભરીને તુરંત રકમ મેળવો.</string>
+    <string name="sample_msg_telegram">પાર્ટ ટાઇમ જોબ: હોટેલ રેટિંગ આપી અને યુટ્યુબ વીડિયો લાઈક કરીને દરરોજ ₹૩૦૦૦ કમાઓ. વીઆઈપી લેવલ માટે ₹૫૦૦ જમા કરો.</string>
+    <string name="sample_msg_sms">ગ્રાહક મિત્ર, બિલ બાકી હોવાથી આજે રાત્રે ૯:૩૦ વાગ્યે તમારું વીજ જોડાણ કાપી નાખવામાં આવશે. તાત્કાલિક ૯૮૭૬૫૪૩૨૧૦ પર કૉલ કરો.</string>
+
+    <!-- GuardBot Screen -->
+    <string name="guardbot_screen_title">ગાર્ડબોટ સહાયક</string>
+    <string name="guardbot_screen_subtitle">સાયબર સુરક્ષા અને સ્કેમ સલાહકાર</string>
+    <string name="guardbot_welcome_msg">નમસ્તે! હું ગાર્ડબોટ 🛡️ છું. હું ફેક ન્યૂઝ ઓળખવામાં, ડિજિટલ અરેસ્ટ સ્કેમ પકડવામાં, શંકાસ્પદ નોકરીઓ પારખવામાં અને હેલ્પલાઇન 1930 પર ફરિયાદ નોંધાવવામાં તમારી મદદ કરી શકું છું. આજે તમે શું ચકાસવા માંગો છો?</string>
+    <string name="guardbot_input_placeholder">ગાર્ડબોટને સુરક્ષા પ્રશ્ન પૂછો…</string>
+    <string name="guardbot_suggest_digital_arrest">ડિજિટલ અરેસ્ટ સ્કેમ શું છે?</string>
+    <string name="guardbot_suggest_1930">1930 પર ફ્રોડની ફરિયાદ કેવી રીતે કરવી?</string>
+    <string name="guardbot_suggest_job_scam">નકલી નોકરીની ઑફર કેવી રીતે ઓળખવી?</string>
+    <string name="guardbot_suggest_forward_safe">શું મારો ફોરવર્ડ મેસેજ સુરક્ષિત છે?</string>
+    <string name="guardbot_thinking">ગાર્ડબોટ માહિતી ચકાસી રહ્યો છે…</string>
+    <string name="guardbot_error_response">સુરક્ષા એન્જિન સાથે કનેક્ટ થવામાં સમસ્યા આવી. કૃપા કરીને ઇન્ટરનેટ તપાસો અથવા ફરી પ્રયાસ કરો.</string>
+
+    <!-- Live News Screen -->
+    <string name="live_news_title">ચકાસાયેલ એલર્ટ્સ અને સમાચાર</string>
+    <string name="live_news_search_placeholder">સત્તાવાર ચેતવણીઓ અને સમાચાર શોધો…</string>
+    <string name="live_news_empty_title">કોઈ મેળ ખાતા એલર્ટ્સ મળ્યા નથી</string>
+    <string name="live_news_empty_desc">અન્ય શબ્દો શોધો અથવા કેટેગરી ફિલ્ટર હટાવો.</string>
+    <string name="live_news_verify_btn">એઆઈ દ્વારા દાવાની પુષ્ટિ કરો</string>
+
+    <!-- Categories -->
+    <string name="category_all">બધા</string>
+    <string name="category_politics">રાજકારણ</string>
+    <string name="category_technology">ટેકનોલોજી</string>
+    <string name="category_business">વેપાર</string>
+    <string name="category_education">શિક્ષણ</string>
+    <string name="category_science">વિજ્ઞાન</string>
+    <string name="category_health">આરોગ્ય</string>
+    <string name="category_sports">રમતગમત</string>
+
+    <!-- History Screen -->
+    <string name="history_screen_title">ચકાસણી ઇતિહાસ</string>
+    <string name="history_search_placeholder">જૂની તપાસ, સ્કેમ અને દાવા શોધો…</string>
+    <string name="history_clear_all">તમામ ઇતિહાસ સાફ કરો</string>
+    <string name="history_filter_all">તમામ રેકોર્ડ</string>
+    <string name="history_filter_scams">સ્કેમ અને છેતરપિંડી</string>
+    <string name="history_filter_fake">ખોટા સમાચાર</string>
+    <string name="history_filter_real">ચકાસાયેલ સાચા</string>
+    <string name="history_filter_misleading">ગેરમાર્ગે દોરનાર</string>
+    <string name="history_empty_title">કોઈ ચકાસણી રેકોર્ડ મળ્યા નથી</string>
+    <string name="history_empty_desc">ટેક્સ્ટ, ઇમેજ, લિંક કે મેસેજની તમારી ચકાસણીઓ અહીં સુરક્ષિત રહેશે.</string>
+    <string name="history_dialog_clear_title">બધો ઇતિહાસ કાઢી નાખવો છે?</string>
+    <string name="history_dialog_clear_desc">આ તમારા ઉપકરણ પર સંગ્રહિત તમામ ચકાસણી રેકોર્ડ કાયમ માટે ભૂંસી નાખશે. આ ક્રિયા પૂર્વવત્ કરી શકાતી નથી.</string>
+    <string name="history_dialog_delete_title">ચકાસણી કાઢી નાખવી છે?</string>
+    <string name="history_dialog_delete_desc">શું તમે આ ચકાસણી રેકોર્ડ તમારા સ્થાનિક ઇતિહાસમાંથી કાઢી નાખવા માંગો છો?</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_screen_title">સેટિંગ્સ અને સુરક્ષા</string>
+    <string name="settings_appearance_title">થીમ અને દેખાવ</string>
+    <string name="settings_appearance_desc">લાઇટ, ડાર્ક અથવા સ્વચાલિત સિસ્ટમ થીમ પસંદ કરો</string>
+    <string name="settings_theme_light">લાઇટ</string>
+    <string name="settings_theme_dark">ડાર્ક</string>
+    <string name="settings_theme_system">સિસ્ટમ</string>
+    <string name="settings_theme_light_desc">• સ્પષ્ટ સફેદ કાર્ડ્સ સાથે સ્વચ્છ, ઉચ્ચ કોન્ટ્રાસ્ટ લાઇટ થીમ.</string>
+    <string name="settings_theme_dark_desc">• સાયબર સુરક્ષા ડીપ નેવી બ્લૂ (#080D1B) નિયોન કલર્સ સાથે.</string>
+    <string name="settings_theme_system_desc">• ઉપકરણના ડાર્ક મોડ સેટિંગ્સ મુજબ આપમેળે બદલાય છે.</string>
+    <string name="settings_simple_mode_title">સરળ ભાષા મોડ (Simple Mode)</string>
+    <string name="settings_simple_mode_desc">વિદ્યાર્થીઓ અને વડીલો માટે વિશ્લેષણને અત્યંત સરળ શબ્દોમાં રજૂ કરે છે.</string>
+    <string name="settings_language_title">એપ્લિકેશન ભાષા (Language)</string>
+    <string name="settings_language_desc">ઇન્ટરફેસ, વિશ્લેષણ અને સુરક્ષા ચેતવણીઓ માટે તમારી પસંદગીની ભાષા પસંદ કરો.</string>
+    <string name="settings_lang_en">English (Default)</string>
+    <string name="settings_lang_hi">हिंदी (Hindi)</string>
+    <string name="settings_lang_gu">ગુજરાતી (Gujarati)</string>
+    <string name="settings_helpline_title">રાષ્ટ્રીય સાયબર ક્રાઈમ હેલ્પલાઇન (1930)</string>
+    <string name="settings_helpline_desc">ઓનલાઇન નાણાકીય છેતરપિંડીની તુરંત જાણ કરવા માટે 24/7 ટોલ-ફ્રી હેલ્પલાઇન.</string>
+    <string name="settings_privacy_title">ગોપનીયતા અને સ્થાનિક ઉપકરણ સ્ટોરેજ</string>
+    <string name="settings_privacy_desc">• તમામ ચકાસણી ઇતિહાસ SQLite / Room દ્વારા તમારા ઉપકરણ પર સુરક્ષિત રીતે સંગ્રહિત છે.\n• શૂન્ય બિનજરૂરી પરવાનગી: TruthGuard સુરક્ષિત Android ફોટો પીકરનો ઉપયોગ કરે છે.\n• કોઈ યુઝર ટ્રેકિંગ કે જાહેરાત ટ્રેકર્સ નથી.</string>
+    <string name="settings_about_title">TruthGuard AI પ્લેટફોર્મ</string>
+    <string name="settings_about_desc">આવૃત્તિ: 2.1.0 (બહુભાષી સંસ્કરણ)\nએઆઈ એન્જિન: Google Gemini અને TruthGuard નિયમો\nબેકએન્ડ: Python FastAPI અને સુરક્ષા એન્જિન\nસમર્થિત ભાષાઓ: English, हिंदी, ગુજરાતી\nવિદ્યાર્થીઓ, વડીલો અને તમામ નાગરિકો માટે બનાવેલ.</string>
+
+    <!-- Coming Soon Screen -->
+    <string name="coming_soon_default_title">સુવિધા વિકાસ હેઠળ છે</string>
+    <string name="coming_soon_desc">અમારા સાયબર સુરક્ષા એન્જિનિયરો રીઅલ-ટાઇમ માહિતી અને એઆઈ સાથે આ મોડ્યુલને સતત બહેતર બનાવી રહ્યા છે.</string>
+
+    <!-- Error Messages -->
+    <string name="error_analysis_prefix">ચકાસણી ભૂલ: </string>
+    <string name="error_network_timeout">નેટવર્ક અથવા પ્રોસેસિંગ સમય સમાપ્ત થયો. તમે ફરી પ્રયાસ કરી શકો છો.</string>
+    <string name="error_image_processing">ઇમેજ પ્રોસેસ થઈ શકી નથી.</string>
+    <string name="error_pdf_generation">પીડીએફ સર્ટિફિકેટ બનાવવામાં ભૂલ: </string>
+    <string name="error_empty_input">કૃપા કરીને ચકાસણી કરતા પહેલા લખાણ દાખલ કરો.</string>
+</resources>

@@ -1,0 +1,226 @@
+<resources>
+    <string name="app_name">TruthGuard AI</string>
+    <string name="app_tagline">तथ्य सत्यापन और स्कैम सुरक्षा</string>
+    <string name="app_subtitle">एक सरल एआई प्लेटफॉर्म जो भ्रामक सूचनाओं और घोटालों से बचाने के लिए समाचार, छवियों और संदेशों की तुरंत पुष्टि करता है।</string>
+
+    <!-- Navigation Titles -->
+    <string name="nav_dashboard">डैशबोर्ड</string>
+    <string name="nav_verify_text">तथ्य जांचें</string>
+    <string name="nav_scan_image">छवि स्कैन</string>
+    <string name="nav_check_link">लिंक जांचें</string>
+    <string name="nav_check_message">संदेश जांचें</string>
+    <string name="nav_guardbot">गार्डबॉट</string>
+    <string name="nav_live_alerts">ताजा अलर्ट</string>
+    <string name="nav_history">इतिहास</string>
+    <string name="nav_settings">सेटिंग्स</string>
+    <string name="nav_coming_soon">शीघ्र आ रहा है</string>
+    <string name="nav_splash">प्रारंभ</string>
+
+    <!-- Common Actions & Buttons -->
+    <string name="action_back">वापस</string>
+    <string name="action_verify">अभी जांचें</string>
+    <string name="action_analyzing">विश्लेषण हो रहा है…</string>
+    <string name="action_clear">हटाएं</string>
+    <string name="action_paste">पेस्ट करें</string>
+    <string name="action_copy">कॉपी करें</string>
+    <string name="action_copied">क्लिपबोर्ड पर कॉपी किया गया!</string>
+    <string name="action_share">शेयर करें</string>
+    <string name="action_download_pdf">पीडीएफ डाउनलोड</string>
+    <string name="action_retry">पुनः प्रयास करें</string>
+    <string name="action_send">भेजें</string>
+    <string name="action_cancel">रद्द करें</string>
+    <string name="action_delete">मिटाएं</string>
+    <string name="action_view_all">सभी देखें</string>
+    <string name="action_go_back">पीछे जाएं</string>
+    <string name="action_call_1930">1930</string>
+    <string name="action_call_1930_now">अभी 1930 पर कॉल करें</string>
+    <string name="action_cybercrime_portal">cybercrime.gov.in</string>
+
+    <!-- Verdict Badges -->
+    <string name="verdict_real">सत्यापित सत्य</string>
+    <string name="verdict_fake">झूठ / असत्य दावा</string>
+    <string name="verdict_scam">संभावित स्कैम / धोखाधड़ी</string>
+    <string name="verdict_misleading">भ्रामक जानकारी</string>
+    <string name="verdict_unverified">पर्याप्त प्रमाण नहीं</string>
+
+    <!-- Confidence & Grounding -->
+    <string name="confidence_grounding">सत्यापन आधार</string>
+    <string name="confidence_high_official">पुख्ता आधिकारिक प्रमाण</string>
+    <string name="confidence_high_scam">स्कैम की उच्च संभावना</string>
+    <string name="confidence_moderate_context">मध्यम साक्ष्य (संदर्भ की कमी)</string>
+    <string name="confidence_strong">मजबूत पुष्टि</string>
+    <string name="confidence_moderate">मध्यम पुष्टि</string>
+    <string name="confidence_preliminary">प्रारंभिक सत्यापन</string>
+
+    <!-- Dashboard Screen -->
+    <string name="dashboard_verify_anything_badge">तुरंत किसी भी जानकारी की जांच करें</string>
+    <string name="dashboard_verify_anything_title">वायरल समाचार, संदेश या लिंक की पुष्टि करें</string>
+    <string name="dashboard_verify_anything_desc">आधिकारिक सरकारी सलाह व पुष्ट स्रोतों से मिलान करने के लिए कोई भी दावा यहां पेस्ट करें।</string>
+    <string name="dashboard_input_placeholder">दावा पेस्ट करें उदा. मुफ्त रिचार्ज योजना…</string>
+    <string name="dashboard_metrics_title">सत्यापन सांख्यिकी (स्थानीय डेटाबेस)</string>
+    <string name="dashboard_metric_total">कुल जांच</string>
+    <string name="dashboard_metric_fake">स्कैम / फर्जी</string>
+    <string name="dashboard_metric_real">सत्यापित सत्य</string>
+    <string name="dashboard_tools_title">मुख्य सत्यापन उपकरण</string>
+    <string name="dashboard_tool_news_title">समाचार जांचें</string>
+    <string name="dashboard_tool_news_desc">दावे व अफवाहें परखें</string>
+    <string name="dashboard_tool_scan_title">छवि स्कैन करें</string>
+    <string name="dashboard_tool_scan_desc">पोस्टर व नोटिस ओसीआर</string>
+    <string name="dashboard_tool_link_title">लिंक जांचें</string>
+    <string name="dashboard_tool_link_desc">फ़िशिंग व यूआरएल खतरा</string>
+    <string name="dashboard_tool_message_title">संदेश जांचें</string>
+    <string name="dashboard_tool_message_desc">व्हाट्सएप व एसएमएस स्कैम</string>
+    <string name="dashboard_tool_guardbot_title">गार्डबॉट एआई</string>
+    <string name="dashboard_tool_guardbot_desc">साइबर सुरक्षा चैट सहायक</string>
+    <string name="dashboard_tool_live_title">ताजा अलर्ट फीड</string>
+    <string name="dashboard_tool_live_desc">आधिकारिक सरकारी परामर्श</string>
+    <string name="dashboard_advisory_title">डिजिटल अरेस्ट स्कैम से सावधान रहें</string>
+    <string name="dashboard_advisory_desc">पुलिस या सीबीआई कभी भी वीडियो कॉल पर गिरफ्तारी नहीं करती। सुरक्षित रहने के तरीके जानने के लिए टैप करें।</string>
+    <string name="dashboard_recent_title">हालिया सत्यापन</string>
+    <string name="dashboard_no_history_title">अभी तक कोई सत्यापन नहीं</string>
+    <string name="dashboard_no_history_desc">शुरुआत करने के लिए ऊपर दिए गए विकल्पों से कोई दावा पेस्ट करें, छवि स्कैन करें या लिंक जांचें।</string>
+
+    <!-- Verify News Screen -->
+    <string name="verify_news_title">दावे व समाचार सत्यापित करें</string>
+    <string name="verify_news_input_label">वक्तव्य या समाचार का दावा दर्ज करें</string>
+    <string name="verify_news_input_placeholder">कोई भी वक्तव्य, वायरल अफवाह या समाचार शीर्षक यहां पेस्ट करें…</string>
+    <string name="verify_news_sample_claims_title">त्वरित परीक्षण उदाहरण</string>
+    <string name="sample_claim_1">ट्राई नोटिस: यदि 2 घंटे में सत्यापन नहीं हुआ तो आपका मोबाइल नंबर बंद कर दिया जाएगा।</string>
+    <string name="sample_claim_2">युवा योजना के तहत सरकार सभी छात्रों को 3 महीने का मुफ्त रिचार्ज दे रही है।</string>
+    <string name="sample_claim_3">आरबीआई ने घोषणा की है कि इस महीने के अंत से ₹500 के नोट अमान्य हो जाएंगे।</string>
+    <string name="verify_result_badge">सत्यापन रिपोर्ट</string>
+    <string name="verify_result_easy_summary">सरल भाषा में सारांश</string>
+    <string name="verify_result_detailed_analysis">विस्तृत एआई विश्लेषण और प्रमाण</string>
+    <string name="verify_result_recommendation">सुरक्षा सिफारिश व सुझाव</string>
+    <string name="verify_result_trusted_sources">आधिकारिक स्रोत और संदर्भ</string>
+    <string name="verify_result_scam_type">स्कैम श्रेणी</string>
+    <string name="verify_result_source_advisory">स्रोत आधिकारिक सत्यापन रजिस्ट्रीयों और मान्यता प्राप्त परामर्शों पर आधारित हैं।</string>
+
+    <!-- OCR Image Screen -->
+    <string name="ocr_screen_title">छवि व नोटिस स्कैन करें</string>
+    <string name="ocr_pick_image_btn">छवि / पोस्टर चुनें</string>
+    <string name="ocr_camera_btn">फोटो खींचें</string>
+    <string name="ocr_gallery_btn">गैलरी से चुनें</string>
+    <string name="ocr_extracting">ओसीआर द्वारा पाठ निकाला जा रहा है…</string>
+    <string name="ocr_rescan_btn">पुनः स्कैन करें</string>
+    <string name="ocr_no_text_found">इस छवि में कोई पठनीय पाठ नहीं मिला। आप ऊपर मैन्युअल रूप से दावा लिख सकते हैं या दूसरी छवि चुन सकते हैं।</string>
+    <string name="ocr_remove_image">हटाएं</string>
+    <string name="ocr_replace_image">छवि बदलें</string>
+    <string name="ocr_verify_btn">छवि व नोटिस सत्यापित करें</string>
+    <string name="ocr_pick_image_hint">फोटो पिकर या कैमरे की मदद से पोस्टर, स्क्रीनशॉट या समाचार कटिंग चुनें।</string>
+    <string name="ocr_extracted_text_label">निकाला गया या संबद्ध पाठ</string>
+    <string name="ocr_extracted_text_placeholder">निकाला गया पाठ यहां दिखाई देगा। आप विवरण संपादित भी कर सकते हैं…</string>
+    <string name="ocr_sample_posters_title">उदाहरण स्कैन नोटिस</string>
+    <string name="sample_poster_1">नोटिस: ट्राई ने सिम निष्क्रिय होने से बचाने के लिए सभी उपयोगकर्ताओं को तुरंत केवाईसी कराने का निर्देश दिया।</string>
+    <string name="sample_poster_2">वायरल पोस्टर: ऊर्जा मंत्रालय द्वारा मुफ्त इलेक्ट्रिक स्कूटर वितरण योजना।</string>
+    <string name="ocr_default_extracted">आधिकारिक नोटिस हेडर: डिजिटल विभाग की मुहर के साथ तत्काल अनुपालन सूचना।</string>
+
+    <!-- Link Verify Screen -->
+    <string name="link_screen_title">लिंक व फ़िशिंग की जांच</string>
+    <string name="link_input_label">वेब पता (यूआरएल)</string>
+    <string name="link_input_placeholder">यूआरएल दर्ज करें या पेस्ट करें उदा. https://example.com</string>
+    <string name="link_sample_links_title">उदाहरण परीक्षण यूआरएल</string>
+    <string name="link_sample_phishing">फर्जी सब्सिडी फ़िशिंग</string>
+    <string name="link_sample_official">आधिकारिक सरकारी प्रेस विज्ञप्ति</string>
+    <string name="link_sample_job">जॉब स्कैम डिपॉजिट लिंक</string>
+    <string name="link_security_overview">सुरक्षा निरीक्षण अवलोकन</string>
+    <string name="link_safe_indicator">डोमेन सुरक्षित - कम जोखिम</string>
+    <string name="link_suspicious_indicator">उच्च जोखिम वाले फ़िशिंग संकेत मिले</string>
+    <string name="link_host_label">होस्टनेम</string>
+    <string name="link_protocol_label">सुरक्षा प्रोटोकॉल</string>
+    <string name="link_status_safe">सुरक्षित प्रोटोकॉल (HTTPS)</string>
+    <string name="link_status_insecure">असुरक्षित (HTTP)</string>
+    <string name="link_warnings_title">पहचाने गए सुरक्षा खतरे</string>
+    <string name="link_advice_title">सुरक्षा सलाह</string>
+    <string name="link_ssrf_blocked">एसएसआरएफ सुरक्षा: लोकलहोस्ट या आंतरिक नेटवर्क तक पहुंच अवरुद्ध है।</string>
+
+    <!-- Message Verify Screen -->
+    <string name="message_screen_title">संदेश स्कैम की जांच</string>
+    <string name="message_platform_label">संदेश का प्लेटफॉर्म</string>
+    <string name="message_input_label">संदेश सामग्री</string>
+    <string name="message_input_placeholder">संदिग्ध व्हाट्सएप, टेलीग्राम या एसएमएस संदेश यहां पेस्ट करें…</string>
+    <string name="message_sample_title">नमूना धोखाधड़ी संदेश चुनें</string>
+    <string name="sample_msg_whatsapp">बधाई हो! आपने केबीसी व्हाट्सएप लॉटरी में ₹25,000 जीते हैं। यूपीआई पर ₹1,000 प्रोसेसिंग शुल्क देकर तुरंत दावा करें।</string>
+    <string name="sample_msg_telegram">पार्ट टाइम नौकरी: होटल रेटिंग और यूट्यूब वीडियो लाइक करके प्रतिदिन ₹3000 कमाएं। वीआईपी स्तर के लिए ₹500 जमा करें।</string>
+    <string name="sample_msg_sms">प्रिय ग्राहक, बिल का भुगतान न होने के कारण आज रात 9:30 बजे आपका बिजली कनेक्शन काट दिया जाएगा। अधिकारी को 9876543210 पर तुरंत कॉल करें।</string>
+
+    <!-- GuardBot Screen -->
+    <string name="guardbot_screen_title">गार्डबॉट सहायक</string>
+    <string name="guardbot_screen_subtitle">साइबर सुरक्षा व स्कैम सलाहकार</string>
+    <string name="guardbot_welcome_msg">नमस्ते! मैं गार्डबॉट 🛡️ हूं। मैं फर्जी खबरों की पहचान करने, डिजिटल अरेस्ट जबरन वसूली का पता लगाने, संदिग्ध नौकरियों को पहचानने और हेल्पलाइन 1930 पर धोखाधड़ी की रिपोर्ट करने में आपकी मदद कर सकता हूं। आज आप क्या सत्यापित करना चाहते हैं?</string>
+    <string name="guardbot_input_placeholder">गार्डबॉट से सुरक्षा संबंधी प्रश्न पूछें…</string>
+    <string name="guardbot_suggest_digital_arrest">डिजिटल अरेस्ट स्कैम क्या है?</string>
+    <string name="guardbot_suggest_1930">1930 पर धोखाधड़ी की रिपोर्ट कैसे करें?</string>
+    <string name="guardbot_suggest_job_scam">फर्जी नौकरी के ऑफर की पहचान कैसे करें?</string>
+    <string name="guardbot_suggest_forward_safe">क्या मेरा फॉरवर्ड संदेश सुरक्षित है?</string>
+    <string name="guardbot_thinking">गार्डबॉट सुरक्षा डेटाबेस की जांच कर रहा है…</string>
+    <string name="guardbot_error_response">सुरक्षा ज्ञान इंजन से जुड़ने में समस्या आई। कृपया अपना इंटरनेट कनेक्शन जांचें या पुनः प्रयास करें।</string>
+
+    <!-- Live News Screen -->
+    <string name="live_news_title">सत्यापित अलर्ट व समाचार</string>
+    <string name="live_news_search_placeholder">आधिकारिक अलर्ट व खारिज की गई खबरें खोजें…</string>
+    <string name="live_news_empty_title">कोई मेल खाता अलर्ट नहीं मिला</string>
+    <string name="live_news_empty_desc">अन्य कीवर्ड खोजें या श्रेणी फ़िल्टर हटाएं।</string>
+    <string name="live_news_verify_btn">एआई से दावे की पुष्टि करें</string>
+
+    <!-- Categories -->
+    <string name="category_all">सभी</string>
+    <string name="category_politics">राजनीति</string>
+    <string name="category_technology">तकनीक</string>
+    <string name="category_business">व्यापार</string>
+    <string name="category_education">शिक्षा</string>
+    <string name="category_science">विज्ञान</string>
+    <string name="category_health">स्वास्थ्य</string>
+    <string name="category_sports">खेल</string>
+
+    <!-- History Screen -->
+    <string name="history_screen_title">सत्यापन इतिहास</string>
+    <string name="history_search_placeholder">पिछली जांचें, स्कैम और दावे खोजें…</string>
+    <string name="history_clear_all">पूरा इतिहास हटाएं</string>
+    <string name="history_filter_all">सभी रिकॉर्ड</string>
+    <string name="history_filter_scams">स्कैम व धोखाधड़ी</string>
+    <string name="history_filter_fake">खारिज समाचार</string>
+    <string name="history_filter_real">सत्यापित सत्य</string>
+    <string name="history_filter_misleading">भ्रामक</string>
+    <string name="history_empty_title">कोई सत्यापन रिकॉर्ड नहीं मिला</string>
+    <string name="history_empty_desc">पाठ, छवियों, लिंक या संदेशों के आपके सभी सत्यापन यहां सुरक्षित रूप से संग्रहीत रहेंगे।</string>
+    <string name="history_dialog_clear_title">पूरा इतिहास हटाएं?</string>
+    <string name="history_dialog_clear_desc">यह आपके डिवाइस पर सहेजे गए सभी सत्यापन रिकॉर्ड स्थायी रूप से मिटा देगा। यह क्रिया पूर्ववत नहीं की जा सकती।</string>
+    <string name="history_dialog_delete_title">सत्यापन हटाएं?</string>
+    <string name="history_dialog_delete_desc">क्या आप इस सत्यापन रिकॉर्ड को अपने स्थानीय इतिहास से हटाना चाहते हैं?</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_screen_title">सेटिंग्स और सुरक्षा</string>
+    <string name="settings_appearance_title">थीम व स्वरूप</string>
+    <string name="settings_appearance_desc">लाइट, डार्क या स्वचालित सिस्टम थीम चुनें</string>
+    <string name="settings_theme_light">लाइट</string>
+    <string name="settings_theme_dark">डार्क</string>
+    <string name="settings_theme_system">सिस्टम</string>
+    <string name="settings_theme_light_desc">• स्पष्ट सफेद कार्डों के साथ स्वच्छ, उच्च-कंट्रास्ट लाइट थीम।</string>
+    <string name="settings_theme_dark_desc">• साइबर सुरक्षा गहरा नेवी ब्लू (#080D1B) नीयन रंगों के साथ।</string>
+    <string name="settings_theme_system_desc">• डिवाइस के डार्क मोड के अनुसार स्वचालित रूप से बदलता है।</string>
+    <string name="settings_simple_mode_title">सरल भाषा मोड (Simple Mode)</string>
+    <string name="settings_simple_mode_desc">छात्रों और वरिष्ठ नागरिकों के लिए विश्लेषण को अत्यंत सरल भाषा में प्रस्तुत करता है।</string>
+    <string name="settings_language_title">एप्लिकेशन भाषा (Language)</string>
+    <string name="settings_language_desc">इंटरफ़ेस, स्पष्टीकरण और सुरक्षा चेतावनियों के लिए अपनी पसंदीदा भाषा चुनें।</string>
+    <string name="settings_lang_en">English (Default)</string>
+    <string name="settings_lang_hi">हिंदी (Hindi)</string>
+    <string name="settings_lang_gu">ગુજરાતી (Gujarati)</string>
+    <string name="settings_helpline_title">राष्ट्रीय साइबर अपराध हेल्पलाइन (1930)</string>
+    <string name="settings_helpline_desc">ऑनलाइन वित्तीय धोखाधड़ी की त्वरित रिपोर्टिंग के लिए 24/7 टोल-फ्री हेल्पलाइन।</string>
+    <string name="settings_privacy_title">गोपनीयता और स्थानीय डिवाइस स्टोरेज</string>
+    <string name="settings_privacy_desc">• सभी सत्यापन इतिहास SQLite / Room का उपयोग करके आपके डिवाइस पर सुरक्षित रूप से संग्रहीत है।\n• शून्य अनावश्यक अनुमतियां: TruthGuard सुरक्षित Android फोटो पिकर का उपयोग करता है।\n• कोई उपयोगकर्ता ट्रैकिंग या तृतीय-पक्ष विज्ञापन ट्रैकर नहीं।</string>
+    <string name="settings_about_title">TruthGuard AI प्लेटफॉर्म</string>
+    <string name="settings_about_desc">संस्करण: 2.1.0 (बहुभाषी संस्करण)\nएआई इंजन: Google Gemini और TruthGuard सुरक्षा नियम\nबैकएंड: Python FastAPI और सुरक्षा इंजन\nसमर्थित भाषाएं: English, हिंदी, ગુજરાતી\nछात्रों, वरिष्ठ नागरिकों और सभी नागरिकों के लिए निर्मित।</string>
+
+    <!-- Coming Soon Screen -->
+    <string name="coming_soon_default_title">सुविधा विकास में है</string>
+    <string name="coming_soon_desc">हमारे साइबर सुरक्षा इंजीनियर वास्तविक समय के खतरों और एआई एल्गोरिदम के साथ इस मॉड्यूल को लगातार उन्नत कर रहे हैं।</string>
+
+    <!-- Error Messages -->
+    <string name="error_analysis_prefix">विश्लेषण त्रुटि: </string>
+    <string name="error_network_timeout">नेटवर्क या प्रोसेसिंग समय समाप्त। आप पुनः प्रयास कर सकते हैं।</string>
+    <string name="error_image_processing">छवि का विश्लेषण नहीं हो सका।</string>
+    <string name="error_pdf_generation">पीडीएफ प्रमाणपत्र बनाने में त्रुटि: </string>
+    <string name="error_empty_input">कृपया पुष्टि करने से पहले पाठ दर्ज करें।</string>
+</resources>

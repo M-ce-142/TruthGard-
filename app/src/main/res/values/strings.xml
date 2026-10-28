@@ -1,0 +1,226 @@
+<resources>
+    <string name="app_name">TruthGuard AI</string>
+    <string name="app_tagline">Fact Verification &amp; Scam Defense</string>
+    <string name="app_subtitle">A simple AI platform that instantly verifies news, images, and messages to protect users from misinformation and scams.</string>
+
+    <!-- Navigation Titles -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_verify_text">Verify Text</string>
+    <string name="nav_scan_image">Scan Image</string>
+    <string name="nav_check_link">Check Link</string>
+    <string name="nav_check_message">Check Message</string>
+    <string name="nav_guardbot">GuardBot</string>
+    <string name="nav_live_alerts">Live Alerts</string>
+    <string name="nav_history">History</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_coming_soon">Coming Soon</string>
+    <string name="nav_splash">Splash</string>
+
+    <!-- Common Actions & Buttons -->
+    <string name="action_back">Back</string>
+    <string name="action_verify">Verify Now</string>
+    <string name="action_analyzing">Analyzing…</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_paste">Paste</string>
+    <string name="action_copy">Copy</string>
+    <string name="action_copied">Copied to clipboard!</string>
+    <string name="action_share">Share</string>
+    <string name="action_download_pdf">Download PDF</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_send">Send</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_view_all">View All</string>
+    <string name="action_go_back">Go Back</string>
+    <string name="action_call_1930">1930</string>
+    <string name="action_call_1930_now">Call 1930 Now</string>
+    <string name="action_cybercrime_portal">cybercrime.gov.in</string>
+
+    <!-- Verdict Badges -->
+    <string name="verdict_real">VERIFIED REAL</string>
+    <string name="verdict_fake">FALSE / CONTRADICTED</string>
+    <string name="verdict_scam">POTENTIAL SCAM</string>
+    <string name="verdict_misleading">MISLEADING</string>
+    <string name="verdict_unverified">NOT ENOUGH EVIDENCE</string>
+
+    <!-- Confidence & Grounding -->
+    <string name="confidence_grounding">Verification Grounding</string>
+    <string name="confidence_high_official">High Official Evidence</string>
+    <string name="confidence_high_scam">High Scam Probability</string>
+    <string name="confidence_moderate_context">Moderate Evidence (Context Missing)</string>
+    <string name="confidence_strong">Strong Corroboration</string>
+    <string name="confidence_moderate">Moderate Corroboration</string>
+    <string name="confidence_preliminary">Preliminary Verification</string>
+
+    <!-- Dashboard Screen -->
+    <string name="dashboard_verify_anything_badge">VERIFY ANYTHING INSTANTLY</string>
+    <string name="dashboard_verify_anything_title">Check viral news, messages, or links</string>
+    <string name="dashboard_verify_anything_desc">Paste any claim or statement to inspect against certified advisories.</string>
+    <string name="dashboard_input_placeholder">Paste claim e.g. Free recharge scheme…</string>
+    <string name="dashboard_metrics_title">Verification Metrics (Local Database)</string>
+    <string name="dashboard_metric_total">Total Checks</string>
+    <string name="dashboard_metric_fake">Scams / Fake</string>
+    <string name="dashboard_metric_real">Verified Real</string>
+    <string name="dashboard_tools_title">Primary Verification Tools</string>
+    <string name="dashboard_tool_news_title">Check News</string>
+    <string name="dashboard_tool_news_desc">Paste claims &amp; rumors</string>
+    <string name="dashboard_tool_scan_title">Scan Image</string>
+    <string name="dashboard_tool_scan_desc">OCR poster &amp; notice</string>
+    <string name="dashboard_tool_link_title">Check Link</string>
+    <string name="dashboard_tool_link_desc">Phishing &amp; URL risk</string>
+    <string name="dashboard_tool_message_title">Check Message</string>
+    <string name="dashboard_tool_message_desc">WhatsApp &amp; SMS scams</string>
+    <string name="dashboard_tool_guardbot_title">GuardBot AI</string>
+    <string name="dashboard_tool_guardbot_desc">Chat cyber safety advisor</string>
+    <string name="dashboard_tool_live_title">Live Alerts Feed</string>
+    <string name="dashboard_tool_live_desc">Official advisories</string>
+    <string name="dashboard_advisory_title">Beware of Digital Arrest Scams</string>
+    <string name="dashboard_advisory_desc">Police and CBI never conduct arrests on video calls. Tap to learn how to stay safe.</string>
+    <string name="dashboard_recent_title">Recent Verifications</string>
+    <string name="dashboard_no_history_title">No Verifications Yet</string>
+    <string name="dashboard_no_history_desc">Try pasting a news claim, scanning an image, or checking a link above to get started.</string>
+
+    <!-- Verify News Screen -->
+    <string name="verify_news_title">Verify Claims &amp; News</string>
+    <string name="verify_news_input_label">Enter Statement or News Claim</string>
+    <string name="verify_news_input_placeholder">Paste any statement, forwarded rumor, or news headline…</string>
+    <string name="verify_news_sample_claims_title">Quick Test Examples</string>
+    <string name="sample_claim_1">TRAI notice: Your mobile number will be disconnected in 2 hours unless verified.</string>
+    <string name="sample_claim_2">Government is giving free 3-month recharge to all students under Youth Scheme.</string>
+    <string name="sample_claim_3">RBI has announced ₹500 currency notes will be invalid from end of this month.</string>
+    <string name="verify_result_badge">VERIFICATION REPORT</string>
+    <string name="verify_result_easy_summary">Plain Language Summary</string>
+    <string name="verify_result_detailed_analysis">Detailed AI Reasoning &amp; Evidence</string>
+    <string name="verify_result_recommendation">Actionable Safety Recommendation</string>
+    <string name="verify_result_trusted_sources">Official Sources &amp; Citations</string>
+    <string name="verify_result_scam_type">Scam Classification</string>
+    <string name="verify_result_source_advisory">Sources are official verification registries and accredited advisories.</string>
+
+    <!-- OCR Image Screen -->
+    <string name="ocr_screen_title">Scan Image &amp; Notice</string>
+    <string name="ocr_pick_image_btn">Select Image / Poster</string>
+    <string name="ocr_camera_btn">Take Photo</string>
+    <string name="ocr_gallery_btn">Choose from Gallery</string>
+    <string name="ocr_extracting">Extracting text using OCR…</string>
+    <string name="ocr_rescan_btn">Re-scan Image</string>
+    <string name="ocr_no_text_found">No readable text detected in this image. You can type or describe the claim manually above, or select another image.</string>
+    <string name="ocr_remove_image">Remove</string>
+    <string name="ocr_replace_image">Change Image</string>
+    <string name="ocr_verify_btn">Verify Image &amp; Notice</string>
+    <string name="ocr_pick_image_hint">Select a screenshot, poster, or clipping using photo picker or camera.</string>
+    <string name="ocr_extracted_text_label">Extracted or Associated Text</string>
+    <string name="ocr_extracted_text_placeholder">Extracted text will appear here. You can also edit or add details…</string>
+    <string name="ocr_sample_posters_title">Sample Scanned Notices</string>
+    <string name="sample_poster_1">Notice: TRAI directs all telecom users to re-verify KYC immediately to avoid SIM deactivation.</string>
+    <string name="sample_poster_2">Viral Poster: Free Electric Scooter distribution scheme by Ministry of Energy.</string>
+    <string name="ocr_default_extracted">Official Notice Header: Urgent Compliance Notice with digital department seal.</string>
+
+    <!-- Link Verify Screen -->
+    <string name="link_screen_title">Check Link &amp; Phishing</string>
+    <string name="link_input_label">Target Web Address (URL)</string>
+    <string name="link_input_placeholder">Enter or paste URL e.g. https://example.com</string>
+    <string name="link_sample_links_title">Example Test URLs</string>
+    <string name="link_sample_phishing">Fake Subsidy Phishing</string>
+    <string name="link_sample_official">Official Govt Press Wire</string>
+    <string name="link_sample_job">Job Scam Deposit Link</string>
+    <string name="link_security_overview">Security Inspection Overview</string>
+    <string name="link_safe_indicator">Domain Verified Low Risk</string>
+    <string name="link_suspicious_indicator">High Risk Phishing Indicators Found</string>
+    <string name="link_host_label">Target Hostname</string>
+    <string name="link_protocol_label">Security Protocol</string>
+    <string name="link_status_safe">SAFE PROTOCOL</string>
+    <string name="link_status_insecure">INSECURE (HTTP)</string>
+    <string name="link_warnings_title">Identified Security Warnings</string>
+    <string name="link_advice_title">Safety Advisory</string>
+    <string name="link_ssrf_blocked">SSRF Protection: Access to localhost or internal network is blocked.</string>
+
+    <!-- Message Verify Screen -->
+    <string name="message_screen_title">Check Message Scam</string>
+    <string name="message_platform_label">Message Origin Platform</string>
+    <string name="message_input_label">Message Content</string>
+    <string name="message_input_placeholder">Paste suspicious WhatsApp, Telegram, or SMS message here…</string>
+    <string name="message_sample_title">Select Sample Fraud Message</string>
+    <string name="sample_msg_whatsapp">CONGRATULATIONS! You won ₹25,000 in KBC WhatsApp Lottery. Claim immediately by paying ₹1,000 processing fee on UPI.</string>
+    <string name="sample_msg_telegram">Part time job offer: Earn ₹3000 daily by rating hotels and liking YouTube videos. Deposit ₹500 to unlock VIP level.</string>
+    <string name="sample_msg_sms">Dear Customer, your electricity connection will be cut tonight at 9:30 PM due to unpaid bill. Call officer immediately on 9876543210.</string>
+
+    <!-- GuardBot Screen -->
+    <string name="guardbot_screen_title">GuardBot Assistant</string>
+    <string name="guardbot_screen_subtitle">Cyber Safety &amp; Scam Advisor</string>
+    <string name="guardbot_welcome_msg">Hello! I am GuardBot 🛡️. I can assist you with identifying fake news, detecting Digital Arrest extortion, recognizing suspicious WhatsApp/Telegram jobs, and understanding how to report fraud on Cyber Helpline 1930. What would you like to verify today?</string>
+    <string name="guardbot_input_placeholder">Ask GuardBot a safety question…</string>
+    <string name="guardbot_suggest_digital_arrest">What is a Digital Arrest scam?</string>
+    <string name="guardbot_suggest_1930">How to report fraud on 1930?</string>
+    <string name="guardbot_suggest_job_scam">Identify fake job offers</string>
+    <string name="guardbot_suggest_forward_safe">Is my forwarded message safe?</string>
+    <string name="guardbot_thinking">GuardBot is consulting safety knowledge…</string>
+    <string name="guardbot_error_response">I encountered an issue connecting to the safety knowledge engine. Please check your connection or tap below to retry.</string>
+
+    <!-- Live News Screen -->
+    <string name="live_news_title">Verified Alerts &amp; News Wire</string>
+    <string name="live_news_search_placeholder">Search official alerts and debunked stories…</string>
+    <string name="live_news_empty_title">No Matching Alerts</string>
+    <string name="live_news_empty_desc">Try searching for other keywords or clear the category filter.</string>
+    <string name="live_news_verify_btn">Verify Claim with AI</string>
+
+    <!-- Categories -->
+    <string name="category_all">All</string>
+    <string name="category_politics">Politics</string>
+    <string name="category_technology">Technology</string>
+    <string name="category_business">Business</string>
+    <string name="category_education">Education</string>
+    <string name="category_science">Science</string>
+    <string name="category_health">Health</string>
+    <string name="category_sports">Sports</string>
+
+    <!-- History Screen -->
+    <string name="history_screen_title">Verification History</string>
+    <string name="history_search_placeholder">Search past checks, scams, claims…</string>
+    <string name="history_clear_all">Clear All History</string>
+    <string name="history_filter_all">All Records</string>
+    <string name="history_filter_scams">Scams &amp; Traps</string>
+    <string name="history_filter_fake">Contradicted News</string>
+    <string name="history_filter_real">Verified Real</string>
+    <string name="history_filter_misleading">Misleading</string>
+    <string name="history_empty_title">No Verification Records Found</string>
+    <string name="history_empty_desc">Verifications you run across text, images, links, or messages will be archived locally here.</string>
+    <string name="history_dialog_clear_title">Clear All History?</string>
+    <string name="history_dialog_clear_desc">This will permanently delete all verification records stored on your device. This action cannot be undone.</string>
+    <string name="history_dialog_delete_title">Delete Verification?</string>
+    <string name="history_dialog_delete_desc">Remove this verification record from your local history?</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_screen_title">Settings &amp; Safety</string>
+    <string name="settings_appearance_title">Appearance &amp; Theme</string>
+    <string name="settings_appearance_desc">Choose light, dark, or automatic system appearance</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_theme_system">System</string>
+    <string name="settings_theme_light_desc">• Clean, high-contrast light theme with crisp white cards.</string>
+    <string name="settings_theme_dark_desc">• Cybersecurity deep navy (#080D1B) with glowing accents.</string>
+    <string name="settings_theme_system_desc">• Dynamically adapts when your device toggles Dark Mode.</string>
+    <string name="settings_simple_mode_title">Simple English Mode</string>
+    <string name="settings_simple_mode_desc">Rephrases analysis into simple language ideal for students and seniors.</string>
+    <string name="settings_language_title">Application Language</string>
+    <string name="settings_language_desc">Select your preferred language for interface, explanations, and safety alerts.</string>
+    <string name="settings_lang_en">English (Default)</string>
+    <string name="settings_lang_hi">हिंदी (Hindi)</string>
+    <string name="settings_lang_gu">ગુજરાતી (Gujarati)</string>
+    <string name="settings_helpline_title">National Cyber Crime Helpline (1930)</string>
+    <string name="settings_helpline_desc">Toll-free 24/7 hotline for immediate reporting of online financial fraud.</string>
+    <string name="settings_privacy_title">Privacy &amp; Local Device Storage</string>
+    <string name="settings_privacy_desc">• All verification history is stored securely on your local device using SQLite / Room.\n• Zero broad storage permissions: TruthGuard uses the Android Photo Picker.\n• No user-identifying tracking cookies or third-party advertising trackers.</string>
+    <string name="settings_about_title">TruthGuard AI Platform</string>
+    <string name="settings_about_desc">Version: 2.1.0 (Multilingual Edition)\nAI Engine: Google Gemini &amp; TruthGuard Heuristics\nBackend: Python FastAPI &amp; Standalone Security Engine\nSupported Languages: English, Hindi, Gujarati\nDesigned for students, seniors, and everyday citizens.</string>
+
+    <!-- Coming Soon Screen -->
+    <string name="coming_soon_default_title">Feature in Development</string>
+    <string name="coming_soon_desc">Our cyber defense engineers are continuously enhancing this module with real-time threat intelligence and AI verification algorithms.</string>
+
+    <!-- Error Messages -->
+    <string name="error_analysis_prefix">Analysis error: </string>
+    <string name="error_network_timeout">Network or processing timeout. You can retry.</string>
+    <string name="error_image_processing">Could not process image.</string>
+    <string name="error_pdf_generation">Error generating PDF certificate: </string>
+    <string name="error_empty_input">Please enter text before verifying.</string>
+</resources>
